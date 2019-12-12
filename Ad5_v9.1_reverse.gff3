@@ -1,0 +1,83 @@
+##gff-version 3								
+##sequence-region Ad5 1 35938								
+Ad5	RefSeq	gene	4057	5836	.	-	.	ID=gene.IVa2;Name=gene.IVa2
+Ad5	RefSeq	mRNA	4057	5836	.	-	.	ID=mRNA.IVa2;Parent=gene.IVa2;Name=IVa2;class=late
+Ad5	RefSeq	exon	5706	5836	.	-	.	ID=exon1.IVa2;Parent=mRNA.IVa2
+Ad5	RefSeq	exon	4057	5427	.	-	.	ID=exon2.IVa2;Parent=mRNA.IVa2
+Ad5	RefSeq	CDS	5706	5718	.	-	0	ID=IVa2;Parent=mRNA.IVa2;Name=IVa2;product=IVa2;protein_id=AP_000201.1
+Ad5	RefSeq	CDS	4091	5427	.	-	2	ID=IVa2;Parent=mRNA.IVa2;Name=IVa2;product=IVa2;protein_id=AP_000201.1
+Ad5	RefSeq	gene	4057	27051	.	-	.	ID=gene.E2B;Name=gene.E2B
+Ad5	RefSeq	mRNA	4057	27051	.	-	.	ID=mRNA.TP;Parent=gene.E2B;Name=TP;class=early
+Ad5	RefSeq	mRNA	4057	27051	.	-	.	ID=mRNA.AdPol;Parent=gene.E2B;Name=AdPol;class=early
+Ad5	RefSeq	exon	26984	27051	.	-	.	ID=exon0.E2B;Parent=mRNA.TP,mRNA.AdPol
+Ad5	RefSeq	exon	24668	24744	.	-	.	ID=exon1.E2B;Parent=mRNA.TP,mRNA.AdPol
+Ad5	RefSeq	exon	14111	14297	.	-	.	ID=exon2.E2B;Parent=mRNA.AdPol,mRNA.TP
+Ad5	RefSeq	exon	4057	10589	.	-	.	ID=exon3.E2B;Parent=mRNA.TP
+Ad5	RefSeq	exon	4057	8784	.	-	.	ID=exon4.E2B;Parent=mRNA.AdPol
+Ad5	RefSeq	CDS	14111	14119	.	-	0	ID=TP;Parent=mRNA.TP;Name=TP;product=TP;protein_id=AP_000203.1
+Ad5	RefSeq	CDS	8583	10589	.	-	0	ID=TP;Parent=mRNA.TP;Name=TP;product=TP;protein_id=AP_000203.1
+Ad5	RefSeq	CDS	14111	14119	.	-	0	ID=AdPol;Parent=mRNA.AdPol;Name=AdPol;product=pol;protein_id=AP_000202.1
+Ad5	RefSeq	CDS	5197	8784	.	-	0	ID=AdPol;Parent=mRNA.AdPol;Name=AdPol;product=pol;protein_id=AP_000202.1
+Ad5	RefSeq	gene	22374	27051	.	-	.	ID=gene.DBP;Name=gene.DBP
+Ad5	RefSeq	mRNA	22374	27051	.	-	.	ID=mRNA.DBP;Parent=gene.DBP;Name=DBP;class=early
+Ad5	RefSeq	mRNA	22374	27051	.	-	.	ID=mRNA.DBPalt;Parent=gene.DBP;Name=DBPalt;class=early
+Ad5	RefSeq	exon	26984	27051	.	-	.	ID=exon1.DBP;Parent=mRNA.DBP,mRNA.DBPalt
+Ad5	RefSeq	exon	24668	24744	.	-	.	ID=exon2.DBP;Parent=mRNA.DBP
+Ad5	RefSeq	exon	22374	24041	.	-	.	ID=exon3.DBP;Parent=mRNA.DBP,mRNA.DBPalt
+Ad5	RefSeq	CDS	22443	24032	.	-	0	ID=DBP;Parent=mRNA.DBP,mRNA.DBPalt;Name=DBP;product=DBP;protein_id=AP_000213.1
+Ad5	RefSeq	mRNA	22374	25899	.	-	.	ID=mRNA.DBP-Late;Parent=gene.DBP;Name=DBP-Late;class=late
+Ad5	RefSeq	mRNA	22374	25899	.	-	.	ID=mRNA.DBPalt-Late;Parent=gene.DBP;Name=DBPalt-Late;class=late
+Ad5	RefSeq	exon	25839	25899	.	-	.	ID=exon1.DBP-Late;Parent=mRNA.DBP-Late,mRNA.DBPalt-Late
+Ad5	RefSeq	exon	24668	24744	.	-	.	ID=exon2.DBP-Late;Parent=mRNA.DBP-Late
+Ad5	RefSeq	exon	22374	24041	.	-	.	ID=exon3.DBP-Late;Parent=mRNA.DBP-Late,mRNA.DBPalt-Late
+Ad5	RefSeq	CDS	22443	24032	.	-	0	ID=DBP_Late;Parent=mRNA.DBP-Late,mRNA.DBPalt-Late;Name=DBP;product=DBP;protein_id=AP_000213.1
+Ad5	RefSeq	gene	22374	31062	.	-	.	ID=gene.UXP;Name=gene.UXP
+Ad5	RefSeq	mRNA	22374	31062	.	-	.	ID=mRNA.UXP;Parent=gene.UXP;Name=UXP;class=late
+Ad5	RefSeq	exon	30868	31062	.	-	.	ID=exon1.UXP;Parent=mRNA.UXP
+Ad5	RefSeq	exon	24668	24744	.	-	.	ID=exon2.UXP;Parent=mRNA.UXP
+Ad5	RefSeq	exon	22374	24041	.	-	.	ID=exon3.UXP;Parent=mRNA.UXP
+Ad5	RefSeq	CDS	30868	31031	.	-	0	ID=UXP;Parent=mRNA.UXP;Name=UXP;product=UXP;protein_id=A8W995
+Ad5	RefSeq	CDS	24668	24744	.	-	1	ID=UXP;Parent=mRNA.UXP;Name=UXP;product=UXP;protein_id=A8W995
+Ad5	RefSeq	CDS	23629	24041	.	-	2	ID=UXP;Parent=mRNA.UXP;Name=UXP;product=UXP;protein_id=A8W995
+Ad5	RefSeq	gene	32806	35608	.	-	.	ID=gene.E4;Name=gene.E4
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf6-7;Parent=gene.E4;Name=E4orf6-7;class=early
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf6-7alt;Parent=gene.E4;Name=E4orf6-7alt;class=novel
+Ad5	RefSeq	exon	35542	35608	.	-	.	ID=exon1.E4orf6-7;Parent=mRNA.E4orf6-7,mRNA.E4orf6-7alt
+Ad5	RefSeq	exon	33904	34329	.	-	.	ID=exon2alt.E4orf6-7;Parent=mRNA.E4orf6-7alt
+Ad5	RefSeq	exon	33904	34082	.	-	.	ID=exon2.E4orf6-7;Parent=mRNA.E4orf6-7
+Ad5	RefSeq	exon	32806	33192	.	-	.	ID=exon3.E4orf6-7;Parent=mRNA.E4orf6-7,mRNA.E4orf6-7alt
+Ad5	RefSeq	CDS	33904	34077	.	-	0	ID=E4-orf6-7;Parent=mRNA.E4orf6-7,mRNA.E4orf6-7alt;Name=E4orf6-7;product=E4 ORF6/7;protein_id=AP_000227.1
+Ad5	RefSeq	CDS	32914	33192	.	-	0	ID=E4-orf6-7;Parent=mRNA.E4orf6-7,mRNA.E4orf6-7alt;Name=E4orf6-7;product=E4 ORF6/7;protein_id=AP_000227.1
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf6;Parent=gene.E4;Name=E4orf6;class=early
+Ad5	RefSeq	exon	35542	35608	.	-	.	ID=exon1.E4orf6;Parent=mRNA.E4orf6
+Ad5	RefSeq	exon	32806	34082	.	-	.	ID=exon2.E4orf6;Parent=mRNA.E4orf6
+Ad5	RefSeq	CDS	33193	34077	.	-	0	ID=E4-orf6;Parent=mRNA.E4orf6;Name=E4orf6;product=E4 34K;protein_id=AP_000228.1
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf4;Parent=gene.E4;Name=E4orf4;class=early
+Ad5	RefSeq	exon	35542	35608	.	-	.	ID=exon1.E4orf4;Parent=mRNA.E4orf4
+Ad5	RefSeq	exon	32806	34432	.	-	.	ID=exon2.E4orf4;Parent=mRNA.E4orf4
+Ad5	RefSeq	CDS	33998	34342	.	-	0	ID=E4-orf4;Parent=mRNA.E4orf4;Name=E4orf4;product=E4 ORF4;protein_id=AP_000229.1
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf3;Parent=gene.E4;Name=E4orf3;class=early
+Ad5	RefSeq	exon	35542	35608	.	-	.	ID=exon1.E4orf3;Parent=mRNA.E4orf3
+Ad5	RefSeq	exon	32806	34732	.	-	.	ID=exon2.E4orf3;Parent=mRNA.E4orf3
+Ad5	RefSeq	CDS	34353	34703	.	-	0	ID=E4-orf3;Parent=mRNA.E4orf3;Name=E4orf3;product=E4 ORF3;protein_id=AP_000230.1
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf2;Parent=gene.E4;Name=E4orf2;class=early
+Ad5	RefSeq	exon	35542	35608	.	-	.	ID=exon1.E4orf2;Parent=mRNA.E4orf2
+Ad5	RefSeq	exon	32806	35104	.	-	.	ID=exon2.E4orf2;Parent=mRNA.E4orf2
+Ad5	RefSeq	CDS	34700	35092	.	-	0	ID=E4-orf2;Parent=mRNA.E4orf2;Name=E4orf2;product=E4 ORFB;protein_id=AP_000231.1
+Ad5	RefSeq	mRNA	32806	35608	.	-	.	ID=mRNA.E4orf1;Parent=gene.E4;Name=E4orf1;class=early
+Ad5	RefSeq	exon	32806	35608	.	-	.	ID=exon1.E4orf1;Parent=mRNA.E4orf1
+Ad5	RefSeq	CDS	35140	35526	.	-	0	ID=E4-orf1;Parent=mRNA.E4orf1;Name=E4orf1;product=E4 ORF1;protein_id=AP_000232.1
+Ad5	RefSeq	gene	22374	35608	.	-	.	ID=gene.E4-DBP;Name=gene.E4-DBP
+Ad5	RefSeq	mRNA	22374	35608	.	-	.	ID=mRNA.E4-DBP;Parent=gene.E4-DBP;Name=E4-DBP;class=novel
+Ad5	RefSeq	mRNA	22374	35608	.	-	.	ID=mRNA.E4orf6-DBP;Parent=gene.E4-DBP;Name=E4orf6-DBP;class=novel
+Ad5	RefSeq	mRNA	22374	35608	.	-	.	ID=mRNA.E4-Unk;Parent=gene.E4-DBP;Name=E4-Unk;class=novel
+Ad5	RefSeq	exon	35542	35608	.	-	.	ID=exon1.E4-DBP;Parent=mRNA.E4-DBP,mRNA.E4orf6-DBP,mRNA.E4-Unk
+Ad5	RefSeq	exon	33904	34082	.	-	.	ID=exon2.E4-DBP;Parent=mRNA.E4orf6-DBP,mRNA.E4-Unk
+Ad5	RefSeq	exon	24668	24744	.	-	.	ID=exon3.E4-DBP;Parent=mRNA.E4-DBP,mRNA.E4-Unk
+Ad5	RefSeq	exon	22374	24041	.	-	.	ID=exon4.E4-DBP;Parent=mRNA.E4-DBP,mRNA.E4orf6-DBP,mRNA.E4-Unk
+Ad5	RefSeq	CDS	22443	24032	.	-	0	ID=E4-DBP;Parent=mRNA.E4-DBP;Name=DBP;product=DBP;protein_id=AP_000213.1
+Ad5	RefSeq	CDS	33904	34077	.	-	0	ID=E4orf6-DBP;Parent=mRNA.E4orf6-DBP;Name=E4orf6-DBP;product=E4orf6-DBPFusion
+Ad5	RefSeq	CDS	22443	24041	.	-	0	ID=E4orf6-DBP;Parent=mRNA.E4orf6-DBP;Name=E4orf6-DBP;product=E4orf6-DBPFusion
+Ad5	RefSeq	CDS	33904	34077	.	-	0	ID=E4orf6-Unk;Parent=mRNA.E4-Unk;Name=Unknown;product=Unknown
+Ad5	RefSeq	CDS	24668	24744	.	-	0	ID=E4orf6-Unk;Parent=mRNA.E4-Unk;Name=Unknown;product=Unknown
+Ad5	RefSeq	CDS	23891	24041	.	-	1	ID=E4orf6-Unk;Parent=mRNA.E4-Unk;Name=Unknown;product=Unknown
