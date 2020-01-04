@@ -1,7 +1,7 @@
 # Ad5-annotation
 "Novel splicing and open reading frames revealed by long-read direct RNA sequencing of adenovirus transcripts"
 
-This repository contains files related to the recent re-annotation of Adenovirus strain Ad5 described here - [ bioRxiv ] link
+This repository contains files related to the recent re-annotation of Adenovirus strain Ad5 described here - https://www.biorxiv.org/content/10.1101/2019.12.13.876037v1
 
 Description of files:
 
