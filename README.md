@@ -5,14 +5,17 @@ This repository contains files related to the recent re-annotation of Adenovirus
 
 Description of files:
 
-Ad5_v10.0_forward.gff3 - GFF3 file denoting all Ad5 transcripts annotated on the top strand of adenovirus strain Ad5
+Ad5_v10.1_forward.gff3 - GFF3 file denoting all Ad5 transcripts annotated on the top strand of adenovirus strain Ad5
 
-Ad5_v10.0_reverse.gff3 - GFF3 file denoting all Ad5 transcripts annotated on the top strand of adenovirus strain Ad5
+Ad5_v10.1_reverse.gff3 - GFF3 file denoting all Ad5 transcripts annotated on the top strand of adenovirus strain Ad5
 
 Adenovirus-Ad5-AC_000008.1.fasta - original Ad5 genome sequence (Genbank accession AC_000008.1)
 
 Ad5_CHOP.fasta - corrected genome sequence of Ad5 variant used in this study. 
 
+OlderVersions/ - folder containing prior versions of the Ad5 annotation
+
+*Last update: 24.08.2022*
 
 Notes:
 
